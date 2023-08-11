@@ -1,0 +1,91 @@
+:root {
+  --primary-color: rgb(124, 121, 121);
+  --secondary-color: rgb(226, 224, 224);
+  --box-shadow: 5px 5px 5px rgba(129, 59, 59, 0.2);
+}
+body {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+  color: var(--primary-color);
+  font-style: italic;
+  box-shadow: var(--box-shadow);
+}
+h4 {
+  font-size: 50px;
+  margin-block-end: 5px;
+  margin-block-start: 5px;
+}
+.myName {
+  font-size: 50px;
+}
+.about-me {
+  display: flex;
+  justify-content: space-evenly;
+}
+.all-about {
+  border: 1px solid #a4a4a4;
+  padding: 20px;
+  margin: 10px;
+  flex: 1;
+  border-radius: 6px;
+  background-color: var(--secondary-color);
+  text-justify: auto;
+  font-size: 18px;
+}
+.contact-me {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  text-decoration: none;
+  margin-top: 25px;
+}
+.all {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.know-me {
+  display: flex;
+  margin-top: 40px;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.about-link {
+  text-decoration: none;
+  border: 1px solid blue;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+}
+.contact-link {
+  text-decoration: none;
+  border: 1px solid gray;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-transform: capitalize;
+  background-color: blue;
+  color: white;
+}
+.contact-link:hover {
+  background-color: aquamarine;
+}
+.about-link:hover {
+  background-color: blue;
+}
+.more {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.launch-link {
+  margin: 20px;
+  padding: 20px 15px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
